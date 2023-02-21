@@ -22,7 +22,10 @@ public class Mild4 {
         System.out.println("Original numeric array: " + Arrays.toString(intArray));
         /***
          * Your code goes here
+         *
+         *
          */
+        Arrays.sort(intArray);
         System.out.println("Sorted numeric array: " + Arrays.toString(intArray));
 
 
@@ -30,6 +33,7 @@ public class Mild4 {
         /***
          * Your code goes here
          */
+        Arrays.sort(stringArray);
         System.out.println("Sorted string array: " + Arrays.toString(stringArray));
 
     }
