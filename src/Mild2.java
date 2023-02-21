@@ -19,7 +19,13 @@ public class Mild2 {
         for (int i = 0; i < a.length; i++) {
             a[i] = (int)(Math.random()*100);
         }
+        int sum2 = 0;
+        for (int x = 0; x < a.length; x++) {
 
+            sum2 = sum2 + a[x];
+            System.out.println(a[x]);
+        }
+        mean = sum2/a.length;
         /***
          * Your code goes here
          */
