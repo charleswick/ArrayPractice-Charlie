@@ -24,12 +24,19 @@ public class Mild1b {
         }
 
         int sum = 0;
+        int sum2 = 0;
+
+        for (int x = 0; x < a.length; x++) {
+
+            sum2 = sum2 + a[x];
+            System.out.println(a[x]);
+        }
 
         /***
          * Your code goes here
          */
 
-        System.out.println("The sum is " + sum);
+        System.out.println("The sum is " + sum2);
 
     }
 
