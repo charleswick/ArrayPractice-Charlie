@@ -17,6 +17,12 @@ public class Mild3 {
          * Your code goes here
          */
 
+        for (int x = 0; x < a.length; x++) {
+
+
+            System.out.println(a[x]);
+        }
+
     }
 
 }
