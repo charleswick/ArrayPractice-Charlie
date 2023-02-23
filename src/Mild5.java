@@ -14,6 +14,8 @@ public class Mild5 {
     public int[] a;
     public int b;
 
+    public boolean isThere;
+
     public static void main(String[] args) {
         Mild5 practice = new Mild5();
     }
@@ -21,7 +23,7 @@ public class Mild5 {
     public Mild5() {
 
         a = new int[30];
-
+        isThere = false;
         for (int i = 0; i < a.length; i++) {
             a[i] = (int)(Math.random()*100);
         }
@@ -35,6 +37,17 @@ public class Mild5 {
          * Your code goes here
          */
 
+        for (int i = 0; i < a.length; i++) {
+            if (a[i]==b) {
+            System.out.println("The array does contain value "+b);
+            isThere = true;
+            }
+
+
+        }
+        if (!isThere){
+            System.out.println("The array does not contain value "+b);
+        }
     }
 
 }

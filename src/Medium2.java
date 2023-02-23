@@ -36,6 +36,11 @@ public class Medium2 {
         /***
          * Your code goes here
          */
+        for (int i = 0; i < a.length; i++) {
+           if (a[i]==a[indexToRemove]){
+               a[i] = a[i] - a[indexToRemove];
+           }
+        }
 
     }
 
